@@ -1,0 +1,3 @@
+void lanc_felszabadit(){
+
+}
