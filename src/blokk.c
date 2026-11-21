@@ -8,7 +8,7 @@
 
 #include "../lib/debugmalloc.h"
 
-#define FNV_64_PRIME 0x100000001b3ULL // 
+#define FNV_64_PRIME 0x100000001b3ULL 
 #define FNV_64_BASIS 0xcbf29ce484222325ULL
 
 
@@ -23,7 +23,7 @@ void idobelyeg_most(char cel[IDOBELYEG_MERET]) {
 
 
 // A blokk nevei lezart szovegek, a fuggveny ezt feltetelezi, ezert nem is
-// kezeli hibanak a 
+// kezeli hibanak
 u64 hash_szamol(const Blokk *blokk) {
     char adat[ADAT_MERET];
     int j = snprintf(adat, sizeof(adat), "%d;%s;%s;%s;%d;%016"PRIx64, blokk->sorszam, blokk->idobelyeg, blokk->tranz.kuldo, blokk->tranz.cimzett, blokk->tranz.osszeg, blokk->hash_elozo);

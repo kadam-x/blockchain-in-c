@@ -6,6 +6,7 @@
 
 typedef int32_t i32; 
 typedef uint64_t u64;
+typedef int64_t i64;
 
 #define NEV_MERET 61 // 30 karakter a leghosszabb nev + \0
 #define IDOBELYEG_MERET 20 // "EEEE-HH-NN OO:PP:MM" + \0
